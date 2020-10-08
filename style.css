@@ -96,6 +96,7 @@ h1 {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .tdl {
@@ -105,7 +106,8 @@ h1 {
 
 #input {
   background-color: #d4e0f4;
-  opacity: 0.8;
+  border-top-left-radius: 10px;
+  opacity: 0.85;
   width: 800px;
   height: 50px;
   border: 0px;
@@ -116,7 +118,8 @@ h1 {
 .addbtn {
   width: 200px;
   background-color: #d4e0f4;
-  opacity: 0.8;
+  border-top-right-radius: 10px;
+  opacity: 0.85;
   border: #d4e0f4 0px;
   font-size: 20px;
   font-family: "Poiret One", cursive;
@@ -125,7 +128,8 @@ h1 {
 #minical {
   width: 200px;
   background-color: #d4e0f4;
-  opacity: 0.8;
+
+  opacity: 0.85;
   border: #d4e0f4 0px;
   font-size: 20px;
   font-family: "Poiret One", cursive;
@@ -144,7 +148,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   background-color: #2c40a7;
-  opacity: 0.8;
+  opacity: 0.85;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 20px;
@@ -161,4 +165,9 @@ h1 {
 
 .robinli-overdue {
   color: red;
+}
+
+.robinli-bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
