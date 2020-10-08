@@ -25,10 +25,20 @@ button {
   text-align: center;
   font-size: 20px;
   background-color: #d4e0f4;
-  border: 1px solid black;
+
   border-radius: 70px;
   width: 80%;
   height: 500px;
+  opacity: 85%;
+  box-shadow: 0 0 60px 20px #fff, 0 0 70px 50px rgb(253, 56, 253),
+    0 0 40px 50px #0ff;
+}
+
+.box {
+  height: 100%;
+  border-radius: 70px;
+  box-shadow: 0px -1px 6px rgb(0, 0, 0, 0.05), 0px 1px 6px rgb(0, 0, 0, 0.05),
+    1px 0px 6px rgb(0, 0, 0, 0.05), -1px 0px 6px rgb(0, 0, 0, 0.05);
 }
 
 .calendar-month {
@@ -82,8 +92,7 @@ button {
 }
 
 .calendar-days li:nth-child(10) button,
-.calendar-days li:nth-child(15) button,
-.calendar-days li:nth-child(16) button {
+.calendar-days li:nth-child(15) button {
   border: 1px solid black;
 }
 
