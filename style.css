@@ -68,7 +68,7 @@ h1 {
   font-family: "Poiret One", cursive;
 }
 
-.calbtn {
+#minical {
   width: 200px;
   background-color: lightgray;
   border: lightgray 0px;
@@ -85,9 +85,18 @@ h1 {
   padding-left: 0px;
 }
 
-li {
+.robinli {
   display: flex;
+  justify-content: space-between;
   background-color: #7aff7a;
-  padding: 5px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.robinli-crossed {
+  text-decoration: line-through;
+}
+
+.robinli p {
   font-size: 20px;
 }
