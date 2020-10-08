@@ -5,6 +5,9 @@
 body {
   font-family: "Poiret One", cursive;
   font-weight: bold;
+  background-image: url(space.jpg);
+  background-position: center;
+  background-size: 100%;
 }
 
 ul {
@@ -85,7 +88,6 @@ button {
 }
 
 header {
-  background-color: #bbfcbb;
   padding-bottom: 50px;
   font-family: "Poiret One", cursive;
 }
@@ -102,6 +104,8 @@ h1 {
 }
 
 #input {
+  background-color: #d4e0f4;
+  opacity: 0.8;
   width: 800px;
   height: 50px;
   border: 0px;
@@ -111,16 +115,18 @@ h1 {
 
 .addbtn {
   width: 200px;
-  background-color: lightgray;
-  border: lightgray 0px;
+  background-color: #d4e0f4;
+  opacity: 0.8;
+  border: #d4e0f4 0px;
   font-size: 20px;
   font-family: "Poiret One", cursive;
 }
 
 #minical {
   width: 200px;
-  background-color: lightgray;
-  border: lightgray 0px;
+  background-color: #d4e0f4;
+  opacity: 0.8;
+  border: #d4e0f4 0px;
   font-size: 20px;
   font-family: "Poiret One", cursive;
 }
@@ -137,9 +143,12 @@ h1 {
 .robinli {
   display: flex;
   justify-content: space-between;
-  background-color: #7aff7a;
+  background-color: #2c40a7;
+  opacity: 0.8;
   padding-left: 15px;
+  padding-right: 15px;
   font-size: 20px;
+  color: white;
 }
 
 .robinli-crossed {
