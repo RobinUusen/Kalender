@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.calendar {
+}
+
+.calendar-month {
+  text-align: center;
+  margin: 0 auto;
+  padding: ;
+}
+
+.calendar-week,
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.calendar-week {
+}
+
+.calendar-days {
+}
+
+.calendar-days li:first-child {
+  grid-column-start: 4;
+}
