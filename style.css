@@ -56,6 +56,8 @@ button {
 }
 
 .calendar-days {
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 .calendar-days button {
@@ -63,13 +65,25 @@ button {
   font-weight: bold;
   background-color: #fdccfb;
   border: none;
-  padding: 10px;
   font-size: 17px;
+  width: 40%;
 }
 
-.calendar-days li:first-child {
+.calendar .calendar-days li:first-child {
   grid-column-start: 4;
 }
+
+.calendar-days li:nth-child(7) button {
+  color: red;
+  border: 1px solid red;
+}
+
+.calendar-days li:nth-child(10) button,
+.calendar-days li:nth-child(15) button,
+.calendar-days li:nth-child(16) button {
+  border: 1px solid black;
+}
+
 header {
   background-color: #bbfcbb;
   padding-bottom: 50px;
